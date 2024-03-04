@@ -1,10 +1,10 @@
 import * as React from "react";
+import Ledger from './Ledger'
 
 const App = () => {
   return (
     <div>
-      <h1>Test Deployment</h1>
-      <p>Just trigger a new cache, removing render</p>
+      <Ledger/>
     </div>
   );
 };
